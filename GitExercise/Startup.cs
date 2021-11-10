@@ -7,7 +7,7 @@ namespace GitExercise
         public static void Main()
         {
             Console.WriteLine("Console Calculator Application");
-            Console.WriteLine(new string('-', 15));
+            Console.WriteLine(new string('-', 20));
 
             Console.Write("a = ");
             double a = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
